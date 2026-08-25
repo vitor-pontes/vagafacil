@@ -7,7 +7,7 @@
 O **VagaFácil** é uma aplicação web responsiva para gerenciamento de veículos em estacionamentos rotativos. O sistema permite controle de entrada e saída do pátio, cadastro de condutores com busca automática de endereço via CEP e exibição de informações climáticas em tempo real.
 
 ## 🎨 Design System e Prototipação
-* **Prototipação no Stitch / Figma:** 
+* **Prototipação no Stitch / Figma:** https://stitch.withgoogle.com/projects/12689647954130269060
 * **Design System & Arquitetura:** Documentado em [`docs/architecture.md`](docs/architecture.md)
 
 ## 🛠️ Tecnologias e Dependências
@@ -18,7 +18,7 @@ O **VagaFácil** é uma aplicação web responsiva para gerenciamento de veícul
   * API Fake: JSON Server (Persistência de Dados)
 
 ## 🌐 Site em Produção
-* **Link GitHub Pages:** 
+* **Link GitHub Pages:** Em desenvolvimento!
 
 ---
 
