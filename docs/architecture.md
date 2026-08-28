@@ -46,28 +46,33 @@ erDiagram
         string status
         int clienteId FK
     }
+```
+
+## 5. Design Tokens
+
+* **Cores Principais:**
+
+  * Primary (Azul Principal): `#0d6efd`
+
+  * Secondary (Cinza Neutro): `#6c757d`
+
+  * Success (Status Livre/Ativo): `#198754`
+
+  * Danger (Status Ocupado/Remoção): `#dc3545`
+
+  * Background Light: `#f8f9fa`
+
+* **Tipografia:** System Font / Roboto (Sans-Serif com `rem` para dimensionamento responsivo).
 
 
-  5. Design Tokens
-Cores Principais:
 
-Primary (Azul Principal): #0d6efd
+## 6. Mapeamento de Componentes (Framework CSS)
 
-Secondary (Cinza Neutro): #6c757d
-
-Success (Status Livre/Ativo): #198754
-
-Danger (Status Ocupado/Remoção): #dc3545
-
-Background Light: #f8f9fa
-
-Tipografia: System Font / Roboto (Sans-Serif com rem para dimensionamento responsivo).
-
-6. Mapeamento de Componentes (Framework CSS)
 Componentes do protótipo que serão substituídos por componentes nativos do Bootstrap 5:
 
-Navbar: Navegação responsiva com menu hambúrguer para telas mobile.
+1. **Navbar:** Navegação responsiva com menu hambúrguer para telas mobile.
 
-Cards: Exibição resumida de estatísticas do pátio e informações de veículos.
+2. **Cards:** Exibição resumida de estatísticas do pátio e informações de veículos.
 
-Modal: Caixa de diálogo para confirmação de checkout de veículos.
+3. **Modal:** Caixa de diálogo para confirmação de checkout de veículos.
+
