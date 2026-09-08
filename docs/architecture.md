@@ -11,14 +11,11 @@ O **VagaFácil** é uma aplicação web Front-End construída em arquitetura mod
 * **Bibliotecas JS:** jQuery e jQuery Mask Plugin (para aplicação de máscaras em inputs).
 
 ## 3. Integração com APIs
-1. **ViaCEP API (Pública):**
-   * **URL Base:** https://viacep.com.br/ws/{cep}/json/
-   * **Objetivo:** Autopreenchimento de logradouro, bairro, cidade e estado no cadastro a partir do CEP informado.
-2. **OpenWeatherMap API / HGFast Weather (Pública):**
-   * **Objetivo:** Exibição da temperatura e clima atual no Dashboard.
-3. **JSON Server (API Fake):**
-   * **Objetivo:** Persistência assíncrona (CRUD) das entidades veiculos e clientes.
-
+1. **ViaCEP API (Pública):** Autopreenchimento de endereço no cadastro do cliente.
+2. **OpenWeatherMap API (Pública):** Exibição da temperatura e clima atual no Dashboard.
+3. **Brasil API - FIPE (Pública):** Consulta complementar de dados de marca/modelo do veículo.
+4. **DiceBear API (Pública):** Geração dinâmica de avatares para os perfis dos clientes.
+5. **JSON Server (API Fake):** Persistência assíncrona (CRUD) de veículos e clientes.
 ## 4. Entidades de Dados (JSON Server)
 * **veiculos**: { id, placa, modelo, cor, horaEntrada, clienteId, status }
 * **clientes**: { id, nome, cpf, telefone, cep, logradouro, numero }
