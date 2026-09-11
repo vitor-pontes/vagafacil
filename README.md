@@ -20,9 +20,12 @@ O **VagaFácil** é uma aplicação web responsiva para gerenciamento de veícul
   * **DiceBear API (Pública):** Geração dinâmica de avatares para os perfis dos clientes.
   * **JSON Server (API Fake):** Persistência de dados (CRUD) das entidades `veiculos` e `clientes`.
 
+### 💡 Justificativa Comercial e Visual das Escolhas Tecnológicas
+* **Bootstrap 5:** Selecionado para garantir uma interface limpa, padronizada e moderna (Clean UI), otimizando a curva de aprendizado e reduzindo o tempo de desenvolvimento (*Time-to-Market*). A estrutura de componentes responsivos (cards, modais e grid) oferece alta legibilidade para operadores em ambiente de pátio/guichê.
+* **APIs Integradas (ViaCEP, OpenWeather, Brasil API, DiceBear):** Escolhidas para agregar valor comercial ao produto final, automatizando a entrada de dados (redução de erros operacionais no CEP/FIPE), personalizando o atendimento visual ao cliente (avatares) e prevendo variações de demanda de fluxo no pátio através de métricas de clima.
+
 ## 🌐 Site em Produção
 * **Link GitHub Pages:** Em desenvolvimento!
-
 ---
 
 ## 📖 Checklist de Funcionalidades (IDs)
